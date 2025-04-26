@@ -1,0 +1,5 @@
+Host codespace
+  HostName codespace.quyvuacn.tech
+  Port 22
+  User user
+  ProxyCommand "C:\Program Files (x86)\cloudflared\cloudflared.exe" access tcp --hostname %h
