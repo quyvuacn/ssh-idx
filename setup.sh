@@ -25,4 +25,4 @@ sudo apt install openssh-server
 
 echo "\nPasswordAuthentication yes" | sudo tee -a /etc/ssh/sshd_config > /dev/null
 
-docker run -d --restart always cloudflare/cloudflared:latest tunnel --no-autoupdate run --token eyJhIjoiNTdiM2JhMzY4ZGMzY2U4ZDI0MDJmN2I5YTcxNWUxYzkiLCJ0IjoiMDIwY2FiZjItOWVjNC00MTdiLWJmMDAtNjdmMTAzOWJlNjg0IiwicyI6Ik9XUm1aR1V4TmpRdE56VTVOUzAwWldFeExXRmxaRE10TURVMlpEYzJaRGswTURSaCJ9
+# docker run -d --restart always cloudflare/cloudflared:latest tunnel --no-autoupdate run eyJhIjoiNTdiM2JhMzY4ZGMzY2U4ZDI0MDJmN2I5YTcxNWUxYzkiLCJ0IjoiMDIwY2FiZjItOWVjNC00MTdiLWJmMDAtNjdmMTAzOWJlNjg0IiwicyI6Ik9XUm1aR1V4TmpRdE56VTVOUzAwWldFeExXRmxaRE10TURVMlpEYzJaRGswTURSaCJ9
